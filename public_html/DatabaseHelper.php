@@ -4,9 +4,9 @@ class DatabaseHelper
 {
     // Since the connection details are constant, define them as const
     // We can refer to constants like e.g. DatabaseHelper::username
-    const username = 'a11916977'; // use a + your matriculation number
-    const password = 'dbs20'; // use your oracle db password
-    const con_string = 'oracle-lab.cs.univie.ac.at:1521/lab';  //on almighty "lab" is sufficient
+    const username = 'xxx'; // use a + your matriculation number
+    const password = 'xxx'; // use your oracle db password
+    const con_string = 'xxx';  //on almighty "lab" is sufficient
 
     // Since we need only one connection object, it can be stored in a member variable.
     // $conn is set in the constructor.
